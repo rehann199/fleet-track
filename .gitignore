@@ -1,0 +1,41 @@
+# Analysis and raw materials
+/analysis/
+/screenshots/
+
+# Logs and runtime
+/_run-logs/
+*.log
+
+# Environment and secrets
+.env*
+!.env.example
+
+# Node
+node_modules/
+npm-debug.log
+package-lock.json
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# IDE and OS
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Build and dist
+dist/
+build/
+.next/
+out/
